@@ -1,210 +1,216 @@
 @import url("https://fonts.google.com/specimen/Hanken+Grotesk");
 
-body{
-    font-family: "Hanken Grotesk";
+body {
+  font-family: "Hanken Grotesk";
 }
 
 .attribution {
-    font-size: 11px;
-    text-align: center;
-    padding-top: 20px;
-    margin-top: 50px;
-    position: center;
+  font-size: 11px;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 50px;
+  position: center;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
 
-
-#main1{
-    height: 350px;
-    width: 250px;
-    border-radius: 20px;
-    margin-left: 500px;
-    margin-top: 160px;
-    position: absolute;
-    z-index: 1;
-    background: linear-gradient( to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+#main1 {
+  height: 350px;
+  width: 250px;
+  border-radius: 20px;
+  margin-left: 500px;
+  margin-top: 160px;
+  position: absolute;
+  z-index: 1;
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
 }
 
-#circle{
-    margin-top: 35px;
-    padding-top: 30px;
-    text-align: center;
-    margin-left: 50px;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background: radial-gradient(circle,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
-    color: hsla(222, 100%, 96%, 0.749);
+#circle {
+  margin-top: 35px;
+  padding-top: 30px;
+  text-align: center;
+  margin-left: 50px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  color: hsla(222, 100%, 96%, 0.749);
 }
 
-
-
-#main1 h5{
-    color: hsla(222, 100%, 96%, 0.749);
-    padding-top: 25px;
-    padding-right: 10px;
-    text-align: center;
-    font-size: 1rem;
+#main1 h5 {
+  color: hsla(222, 100%, 96%, 0.749);
+  padding-top: 25px;
+  padding-right: 10px;
+  text-align: center;
+  font-size: 1rem;
 }
 
-#circle h1{
-    font-size: 48px;
-    color: hsl(0, 0%, 100%);
+#circle h1 {
+  font-size: 48px;
+  color: hsl(0, 0%, 100%);
 }
 
-
-#circle p{
-    padding-top: 0px;
-    font-size: 0.75rem;
+#circle p {
+  padding-top: 0px;
+  font-size: 0.75rem;
 }
 
-p{
-    text-align: center;
-    color: hsla(222, 100%, 96%, 0.749);
-    font-size: 0.75rem;
-    padding-top: 10px;
+p {
+  text-align: center;
+  color: hsla(222, 100%, 96%, 0.749);
+  font-size: 0.75rem;
+  padding-top: 10px;
 }
 
-#main1 .graph{
-    padding-top: 0px;
+#main1 .graph {
+  padding-top: 0px;
 }
 
-#main1 h2{
-    color: white;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 700;
-    padding-right: 10px;
-    padding-top: 15px;
+#main1 h2 {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-right: 10px;
+  padding-top: 15px;
 }
 
-
-
-#main2{
-    background-color: white;
-    height: 350px;
-    width: 250px;
-    border-radius: 0px 20px 20px 0px;
-    margin-right: 30px;
-    position: relative;
-    z-index: 0;
-    box-shadow: 2px 2px 4px rgba(76, 42, 139, 0.2);
-    margin-left: 740px;
-    margin-top: 160px;
+#main2 {
+  background-color: white;
+  height: 350px;
+  width: 250px;
+  border-radius: 0px 20px 20px 0px;
+  margin-right: 30px;
+  position: relative;
+  z-index: 0;
+  box-shadow: 2px 2px 4px rgba(76, 42, 139, 0.2);
+  margin-left: 740px;
+  margin-top: 160px;
 }
 
-#main2 .q1{
-    margin-left: 10px;
-    color: hsl(0, 100%, 67%);
-    background-color: hsl(0, 100%, 67%, 0.1);
-    height: 35px;
-    width: 200px;
-    border-radius: 5px;
-    padding-top: 8px;
-    font-weight: 500;
-    text-align: left;
-    padding-left: 20px;
-    margin-top: 25px;
+#main2 .q1 {
+  margin-left: 10px;
+  color: hsl(0, 100%, 67%);
+  background-color: hsl(0, 100%, 67%, 0.1);
+  height: 35px;
+  width: 200px;
+  border-radius: 5px;
+  padding-top: 8px;
+  font-weight: 500;
+  text-align: left;
+  padding-left: 20px;
+  margin-top: 25px;
 }
 
-#main2 .q2{
-    margin-left: 10px;
-    color: hsl(39, 100%, 56%);
-    background-color: hsl(39, 100%, 56%, 0.1);
-    height: 35px;
-    width: 200px;
-    border-radius: 5px;
-    padding-top: 8px;
-    text-align: left;
-    font-weight: 500;
-    padding-left: 20px;
+#main2 .q2 {
+  margin-left: 10px;
+  color: hsl(39, 100%, 56%);
+  background-color: hsl(39, 100%, 56%, 0.1);
+  height: 35px;
+  width: 200px;
+  border-radius: 5px;
+  padding-top: 8px;
+  text-align: left;
+  font-weight: 500;
+  padding-left: 20px;
 }
 
-#main2 .q3{
-    margin-left: 10px;
-    color: hsl(166, 100%, 37%);
-    background-color: hsl(166, 100%, 37%, 0.1);
-    height: 35px;
-    width: 200px;
-    border-radius: 5px;
-    padding-top: 8px;
-    text-align: left;
-    font-weight: 500;
-    padding-left: 20px;
+#main2 .q3 {
+  margin-left: 10px;
+  color: hsl(166, 100%, 37%);
+  background-color: hsl(166, 100%, 37%, 0.1);
+  height: 35px;
+  width: 200px;
+  border-radius: 5px;
+  padding-top: 8px;
+  text-align: left;
+  font-weight: 500;
+  padding-left: 20px;
 }
 
-#main2 .q4{
-    margin-left: 10px;
-    color: hsl(234, 85%, 45%);
-    background-color: hsl(234, 85%, 45%, 0.1);
-    height: 35px;
-    width: 200px;
-    border-radius: 5px;
-    padding-top: 8px;
-    text-align: left;
-    padding-left: 20px;
-    font-weight: 500;
+#main2 .q4 {
+  margin-left: 10px;
+  color: hsl(234, 85%, 45%);
+  background-color: hsl(234, 85%, 45%, 0.1);
+  height: 35px;
+  width: 200px;
+  border-radius: 5px;
+  padding-top: 8px;
+  text-align: left;
+  padding-left: 20px;
+  font-weight: 500;
 }
 
-#main2  button{
-    margin-left: 20px;
-    background-color: hsl(224, 30%, 27%);
-    width: 190px;
-    height: 35px;
-    border-radius: 20px;
-    border: none;
-    color: white;
-    margin-top: 15px;
-    font-size: smaller;
+#main2 button {
+  margin-left: 20px;
+  background-color: hsl(224, 30%, 27%);
+  width: 190px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  margin-top: 15px;
+  font-size: smaller;
 }
 
-#main2 h3{
-    font-size: 1rem;
-    font-weight: 600;
-    padding-top: 25px;
-    padding-left: 20px;
+#main2 h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  padding-top: 25px;
+  padding-left: 20px;
 }
 
-#main2 p span{
-    padding-left: 50px;
-    color: hsl(224, 30%, 27%, 0.5);
-    font-weight: 500;
+#main2 p span {
+  padding-left: 50px;
+  color: hsl(224, 30%, 27%, 0.5);
+  font-weight: 500;
 }
 
-#main2 .a{
-    padding-left: 60px;
+#main2 .a {
+  padding-left: 60px;
 }
 
-#main2 .b{
-    padding-left: 65px;
+#main2 .b {
+  padding-left: 65px;
 }
 
 #main2 button:hover {
-    background: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
-} 
-
-b{
-    color: black;
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
 }
 
-img{
-    padding-right: 5px;
+b {
+  color: black;
+}
+
+img {
+  padding-right: 5px;
 }
 
 .row {
-    display: flex;
+  display: flex;
 }
 
 @media (max-width: 375px) {
-    .row {
-        flex-wrap: wrap;
-    }
+  .row {
+    flex-wrap: wrap;
+  }
 
-    #main1 #main2 {
-        position: absolute;
-        width: 100%;
-    }
+  #main1 #main2 {
+    position: absolute;
+    width: 100%;
+  }
 }
